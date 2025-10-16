@@ -22,6 +22,7 @@ SHELL ["/bin/bash", "-c"]
 
 # required to run some scripts as root (needed for docker)
 RUN source /root/.nvm/nvm.sh \
+   && npm cache clean --force \
    && npm config set unsafe-perm true \
    && npm install && (cd prerender-server && npm run dist) \
    && DEST=/srv/explorer/static/bitcoin-mainnet \
