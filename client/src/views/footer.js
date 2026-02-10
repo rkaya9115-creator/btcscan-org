@@ -46,7 +46,7 @@ export default ({ t, page }) =>
             {process.env.TERMS && <span><a href={process.env.TERMS} target="_blank">Terms &amp; </a></span>}
             {process.env.PRIVACY && <span><a href={process.env.PRIVACY} target="_blank">Privacy</a></span>}
           </div>
-          <div>© 2025 Bitcoin Block Explorer.</div>
+          <div>© 2026 Bitcoin Block Explorer.</div>
         </div>
       </div>
     </div>
